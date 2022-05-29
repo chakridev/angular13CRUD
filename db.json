@@ -1,0 +1,95 @@
+{
+  "productlist": [
+    {
+      "productName": "Pineapple",
+      "productCategory": "Fruits",
+      "freshness": "Fresh",
+      "price": 159,
+      "comment": "old stock",
+      "date": "2022-04-30T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Daal",
+      "productCategory": "Groceries",
+      "freshness": "Fresh",
+      "price": 120,
+      "comment": "Sambar Daal",
+      "date": "2022-05-17T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Hair Dryer",
+      "productCategory": "Electronic",
+      "freshness": "Second Hand",
+      "price": 850,
+      "comment": "Philips",
+      "date": "2022-05-03T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Apple",
+      "productCategory": "Vegetables",
+      "freshness": "Sub-Fresh",
+      "price": 180,
+      "comment": "Simla Apples",
+      "date": "2022-04-12T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Tomato",
+      "productCategory": "Vegetables",
+      "freshness": "Fresh",
+      "price": 70,
+      "comment": "Hybrid",
+      "date": "2022-05-11T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Charger",
+      "productCategory": "Electronics",
+      "freshness": "Second Hand",
+      "price": 1200,
+      "comment": "HP charger",
+      "date": "2022-05-19T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "Bluetooth Earphones",
+      "productCategory": "Electronics",
+      "freshness": "First Hand",
+      "price": 4999,
+      "comment": "Oneplus Z",
+      "date": "2022-05-11T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "Jachfruit",
+      "productCategory": "Fruits",
+      "freshness": "Sub-Fresh",
+      "price": 150,
+      "comment": "In Discount",
+      "date": "2022-05-05T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "Mouses",
+      "productCategory": "Electronics",
+      "freshness": "First Hand",
+      "price": 999,
+      "comment": "HP",
+      "date": "2022-05-25T18:30:00.000Z",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

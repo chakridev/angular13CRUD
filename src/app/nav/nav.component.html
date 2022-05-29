@@ -1,0 +1,26 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>assignment</mat-icon>
+  </button>
+  <span>ADD LIST</span>
+  <span class="example-spacer"></span>
+
+    <ng-container *ngIf="this.auth.isauthenticated(); then authenticated; else unauthenticated">
+
+    </ng-container>
+
+
+    <ng-template #unauthenticated>
+      <button mat-raised-button color="primary" [routerLink]="['/register']">Register</button>
+      <button mat-raised-button color="accent" [routerLink]="['/login']">Login</button>
+    </ng-template>
+
+    <ng-template #authenticated>
+      <button mat-raised-button color="warn" [routerLink]="['/dashboard']">Dashboard</button>
+      <button mat-raised-button color="warn" (click)="logout()">Logout</button>
+    </ng-template>
+
+
+
+
+</mat-toolbar>
